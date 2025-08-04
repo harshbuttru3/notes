@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1dcb7af178a6e805",
+        "id": "eb3a614db5982c89",
         "type": "tabs",
         "children": [
           {
-            "id": "2b93def82bdc16ef",
+            "id": "73b9aa915617c226",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academics/Cisco/Module 2/1. Comparing and Contrasting Governance, Risk, and Compliance Concepts.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "1. Comparing and Contrasting Governance, Risk, and Compliance Concepts"
+              "title": "New tab"
             }
           }
         ]
@@ -183,8 +179,10 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "2b93def82bdc16ef",
+  "active": "73b9aa915617c226",
   "lastOpenFiles": [
+    "General/TO-DO.md",
+    "Academics/Cisco/Module 2/1. Comparing and Contrasting Governance, Risk, and Compliance Concepts.md",
     "Academics/Cisco/Module 3/Objective 2.md",
     "Academics/Cisco/Module 3/4. Understanding How to Analyze Vulnerability scan results.md",
     "Academics/Cisco/Module 3/3. Understanding the art of performing Vulnerability Scans.md",
@@ -197,7 +195,6 @@
     "Academics/Cisco/Module 2/Objective1.md",
     "Academics/Cisco/Module 2/3. Demonstrating an Ethical Hacking Mindset by maintaining professionalism and Integrity.md",
     "Academics/Cisco/Module 2/2. Explaining the importance of Scoping and Organizational or Customer Requirements.md",
-    "Academics/Cisco/Module 2/1. Comparing and Contrasting Governance, Risk, and Compliance Concepts.md",
     "Academics/NPTEL/WEEK 1/TCP-IP Protocol Stack.md",
     "Exported/site-lib/scripts/webpage.js",
     "Exported/site-lib/scripts/graph-wasm.wasm",
@@ -222,7 +219,6 @@
     "Academics/oops/Important Questions.md",
     "Academics/oops/Practice Codes.md",
     "Academics/NPTEL/WEEK 1/Basic Concepts of Networking.md",
-    "General/TO-DO.md",
     "images/Pasted image 20250803125806.png",
     "[[.md",
     "2025-07-24.md",
