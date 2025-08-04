@@ -11,10 +11,14 @@
             "id": "73b9aa915617c226",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Academics/NPTEL/WEEK 1/TCP-IP Protocol Stack.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "TCP-IP Protocol Stack"
             }
           }
         ]
@@ -181,6 +185,7 @@
   },
   "active": "73b9aa915617c226",
   "lastOpenFiles": [
+    "images/Pasted image 20250805011408.png",
     "General/TO-DO.md",
     "Academics/Cisco/Module 2/1. Comparing and Contrasting Governance, Risk, and Compliance Concepts.md",
     "Academics/Cisco/Module 3/Objective 2.md",

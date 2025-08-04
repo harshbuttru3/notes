@@ -21,4 +21,5 @@ Advanced Research Project Agency (ARPA).
 	- The datagrams corresponding to the same message may follow different routes. 
 		- variable delay, arrival order at destination. 
 
+![[Pasted image 20250805011408.png]]
 ![[Pasted image 20250803125806.png]]
