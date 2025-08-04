@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Notes]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>Notes</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 03 Aug 2025 15:52:07 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 03 Aug 2025 15:52:00 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[TCP-IP Protocol Stack]]></title><description><![CDATA[TCP/IP is the most fundamental protocol used in the internet. Allows computers to communicate / share resources. Used as a standard. To bridge the gap between non-compatible platforms. Work on TCP/IP started in 1970s, funded by US Military.
+Advanced Research Project Agency (ARPA). In 1978, International Standards Organization (ISO) proposed the 7-layer OSI refernce model for network services and protocols. TCP/IP does not strictly follow the OSI model. It follows a simplified 4-layer model. ![[Pasted image 20250803123039.png]<img alt="Pasted image 20250803123011.png" src="images/pasted-image-20250803123011.png" target="_self"><br>
+<img alt="Pasted image 20250803123039.png" src="images/pasted-image-20250803123039.png" target="_self"> TCP/IP refers to a family of protocols. The protocols are built on top of connectionless technology (datagrams). Data sent from one node to another as sequence of datagrams. Each datagram is sent independently. The datagrams corresponding to the same message may follow different routes. variable delay, arrival order at destination. <br><img alt="Pasted image 20250803125806.png" src="images/pasted-image-20250803125806.png" target="_self">]]></description><link>academics/nptel/week-1/tcp-ip-protocol-stack.html</link><guid isPermaLink="false">Academics/NPTEL/WEEK 1/TCP-IP Protocol Stack.md</guid><pubDate>Sun, 03 Aug 2025 15:35:10 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Basic Concepts of Networking]]></title><description><![CDATA[
+A dedicated communication path is established between two stations. The path follows a fixed sequence of intermediate links.
+A logical channel gets defined on each physical link. In circuit switching, Three steps are required for communication, Connection establishment : Required before data transmission
+Data transfer : Can proceed at maximum speed.
+Connection termination : Required after data transmission is over, For deallocation of network resources. Channel capacity is dedicated during the entire duration of communication. Acceptable for voice communication
+Very inefficient for bursty traffic like data. There is an initial delay for connection establishment. Modern form of long-distance communication Network resources are not dedicated. A link can be shared. The basic technology has evolved over time Basic concepts has remained the same. Data are transmitted in short packets (~Kbytes). A Longer message is broken up into smaller Chunks. The chunks are called Packets. Every packet contains a Header. Relevant information for routing, etc. Packet switching is based on store-and-forward concept. Each intermediate network node receives a whole packet. Decides the route. Forwards the packet along the selected route. Each intermediate note (router) maintains a routing table. Links can be shared; so link utilization is better. Suitable for computer-generated (bursty) traffic. Buffering and data rate conversion can be performed easily.
+Some packets may be given priority over others, if desired. Two alternative approaches: a) Virtual Circuits
+b) Datagram Similar in concept to circuit switching. A route is established before packet transmission starts. All packets follow the same path. The links comprising the path are not dedicated. Different from circuit switching in this respect. Telephone systems. Route is established a prior. Packet forwarded from one node to the next using store-and-forward scheme.
+only the virtual circuit number need to be carried by a packet. Each intermediate node maintains a table.
+Created during route establishment.
+Used for packet forwarding. No dynamic routing decision is taken by the intermediate nodes. No route is established beforehand. Each packet is transmitted as an independent entity.
+Does not maintain any history. Postal System.
+Every Intermediate node has to take routing decisions dynamically. Makes use of a routing table.
+Every packet must contain Source and Destination addresses. Packets may be delivered out of order
+If a node crashes momentarily, all of its queued packets are lost. Duplicate Packets may also be generated. Faster than virtual circuit for smaller numbers of packets. No route establishment and termination. More flexible. Packets between two hosts may follow different paths. can handle congestion/failed link Three types of delays must be considered : Propagation Delay : Time taken by a data signal to propagate from one node to the next. Transmission Time : Time taken to send out a packet by the transmitter. Processing Delay : Time taken by a node to process a packet. Open systems interconnection (OSI) reference model.
+Seven layer model
+Communication functions are partitioned into a hierarchical set of layers. Systematic approach to design
+Changes in one layer should not require changes in other layers. <img alt="Pasted image 20250803102912.png" src="images/pasted-image-20250803102912.png" target="_self">Transmit raw bit stream over a physical medium (eg. copper wire, Ethernet cable, fibre optics)Reliable transfer of frames over a point-to-point link (flow control, error control ). Establishing, maintaining and terminating connections.
+Routes packets through point-to-point links. End-to-end reliable data transfer, with error recovery and flow control.Manages sessions.provides data independenceinterface point for user applications.<br><img alt="Pasted image 20250803103758.png" src="images/pasted-image-20250803103758.png" target="_self">Extends the span of a single LAN.
+connects two or more LANs together.
+Works at data link layer level. Connects any combination of LANs and WANs. Works at network layer level.
+]]></description><link>academics/nptel/week-1/basic-concepts-of-networking.html</link><guid isPermaLink="false">Academics/NPTEL/WEEK 1/Basic Concepts of Networking.md</guid><pubDate>Sun, 03 Aug 2025 15:28:48 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Pasted image 20250803125806]]></title><description><![CDATA[<img src="images/pasted-image-20250803125806.png" target="_self">]]></description><link>images/pasted-image-20250803125806.html</link><guid isPermaLink="false">images/Pasted image 20250803125806.png</guid><pubDate>Sun, 03 Aug 2025 07:28:06 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Pasted image 20250803123039]]></title><description><![CDATA[<img src="images/pasted-image-20250803123039.png" target="_self">]]></description><link>images/pasted-image-20250803123039.html</link><guid isPermaLink="false">images/Pasted image 20250803123039.png</guid><pubDate>Sun, 03 Aug 2025 07:00:39 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Pasted image 20250803123011]]></title><description><![CDATA[<img src="images/pasted-image-20250803123011.png" target="_self">]]></description><link>images/pasted-image-20250803123011.html</link><guid isPermaLink="false">images/Pasted image 20250803123011.png</guid><pubDate>Sun, 03 Aug 2025 07:00:11 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[1. Comparing and Contrasting Governance, Risk, and Compliance Concepts]]></title><description><![CDATA[Date: 2025-07-24
+Tags: <a data-href="regulations" href=".html" class="internal-link" target="_self" rel="noopener nofollow">regulations</a> <br>The Payment card industry data security standard regulation aims to secure the processing of credit card payments and other types of digital payments. <a data-tooltip-position="top" aria-label="https://www.pcisecuritystandards.org" rel="noopener nofollow" class="external-link is-unresolved" href="https://www.pcisecuritystandards.org" target="_self">PCI DSS</a> In order to protect cardholders against misuse of their personal information and to minimize payment card channel losses, the major payment card brands (Visa, MasterCard, Discover and American Express) formed the payment card industry security standards council and developed the payment card industry data security standard. <br>Here are several common terms that are used in this module and are defined by PCI SSC at <a data-tooltip-position="top" aria-label="%5B_https://www.pcisecuritystandards.org/documents/PCI_DSS_Glossary_v3-2.pdf_%5D(https://www.pcisecuritystandards.org/documents/PCI_DSS_Glossary_v3-2.pdf)" rel="noopener nofollow" class="external-link is-unresolved" href="./[_https://www.pcisecuritystandards.org/documents/PCI_DSS_Glossary_v3-2.pdf_](https://www.pcisecuritystandards.org/documents/PCI_DSS_Glossary_v3-2.pdf)" target="_self">pdf</a> Acquirer : or "acquiring back" or an "acquiring financial institution" an entity that initiates and maintains relationships with merchants for the acceptance of payment cards. ASV(approved scanning vendor) : An organization approved by the PCI SSC to conduct external vulnerability scanning services Merchant : an entity that accepts payment cards bearing the logos of any of the members of PCI SSC(American Express, Discover, MasterCard, or Visa) as payment for goods/services. PAN(primary account number) : A payment card number that is up to 19 digits long.
+Payment Brand : Brands such as Visa, MasterCard, Amex, or Discover.
+PCI Forensic Investigator (PFI) : A person trained and certified to investigate and contain information about cybersecurity incidents and breaches involving cardholder data.
+Qualified Security assessor (QSA) : An individual trained and certified to carry out PCI DSS compliance assessments. Service Provider : A business entity that is not a payment brand and that is directly involved in the processing, storage, or transmission of cardholder data. This includes companies that provide services that control and could impact the security of cardholder data, such as managed service providers that provide managed firewalls, intrusion detection and other services, and hosting providers and other entities. Entities such as telecommunications companies that only provide communication links without access to the application layer of the communication link are excluded.
+The PAN is the defining factor in the applicability of PCI DSS requirements. PCI DSS requirements apply if the PAN is stored, processed, or transmitted. if the PAN is not stored, processed, or transmitted, PCI DSS requirements no not apply. If cardholder name, service code, and/or expiration date are stored, processed, or transmitted with the PAN or are otherwise present in the cardholder data environment, they too must be protected. Per the standards, the PAN must be stored in an unreadable(encrypted) format. Sensitive authentication data may never be stored post-authorization, even if encrypted. The Luhn algorithm, or Luhn formula, is an industry algorithm used to validate different identification numbers, including credit card numbers, International Mobile Equipment Identity (IMEI) numbers, national provider identifier numbers in the United States, Canadian Social Insurance Numbers, and more. The Luhn algorithm, created by Hans Peter Luhn in 1954, is now in the public domain.Most credit cards and many government organizations use the Luhn algorithm to validate numbers. The Luhn algorithm is based on the principle of modulo arithmetic and digital roots. It uses modulo-10 mathematics.The following are the typical elements on the front of a credit card:
+Embedded microchip
+PAN
+Expiration date
+Cardholder name
+The microchip contains the same information as the magnetic stripe. Most non-U.S. cards have a microchip instead of a magnetic stripe. Some U.S. cards have both for international acceptance.The following are the typical elements on the back of a credit card:
+Magnetic stripe (mag stripe):&nbsp;The magnetic stripe contains encoded data required to authenticate, authorize, and process transactions.
+CAV2/CID/CVC2/CVV2:&nbsp;All these abbreviations are names for card security codes for the different payment brands.
+<br>The PCI SSC website provides great guidance on the requirements for penetration testing. See&nbsp;<a data-tooltip-position="top" aria-label="https://www.pcisecuritystandards.org/" rel="noopener nofollow" class="external-link is-unresolved" href="https://www.pcisecuritystandards.org/" target="_self"><em></em></a>https://www.pcisecuritystandards.org.<br>Health Insurance Portability and Accountability Act of 1996 regulation was to simplify and standardize healthcare administrative processes. Administrative simplification called for the transition from paper records and transactions to electronic records and transactions. <a data-tooltip-position="top" aria-label="https://www.cdc.gov/phlp/publications/topic/hippa.html" rel="noopener nofollow" class="external-link is-unresolved" href="https://www.cdc.gov/phlp/publications/topic/hippa.html" target="_self">HIPPA</a><br>The U.S. federal government uses the Federal Risk and Authorization Management Program standard to authorize the use of cloud service offerings. <a data-tooltip-position="top" aria-label="https://www.fedramp.gov" rel="noopener nofollow" class="external-link is-unresolved" href="https://www.fedramp.gov" target="_self">fedramp</a><br>General Data Protection Regulation includes strict rules around the processing of data and privacy. One of it's main goals is to strengthen and unify data protection for individuals within the European Union (EU), while addressing the export of personal data outside the EU. <a data-tooltip-position="top" aria-label="https://gdpr-info.eu" rel="noopener nofollow" class="external-link is-unresolved" href="https://gdpr-info.eu" target="_self">GDPR</a>An SLA is a well-documented expectation or constraint related to one or more of the minimum and/or maximum performance measures (such as quality, timeline/timeframe, and cost) of the penetration testing service. You should become familiar with any SLAs that the organization that hired you has provided to its customers. You must discuss and agree on the handling of confidential data. For example, if you are able to find passwords or other sensitive data, do you need to disclose all those passwords or all that sensitive data? who will have access to sensitive data? what will be the proper way to communicate and handle such data? Similarly, you must protect sensitive data and delete all records, per you agreement with your client. Your customer could have specific data retention policies that you might also have to be aware of. Every time you finish a penetration testing engagement, you should delete any records from your systems. You do not want your next customer to find sensitive information from another client in any system or communication. An SOW is a document that specifies the activities to be performed during a penetration testing engagement. It can be used to define some of the following elements: Project (penetration testing) timelines, including the report delivery schedule The scope of the work to be performed The location of the work (geographic location or network location)
+Special technical and nontechnical requirements
+Payment schedule
+Miscellaneous items that may not be part of the main negotiation but that need to be listed and tracked because they could pose problems during the overall engagement.
+The SOW can be standalone document or can be part of a master service agreement (MSA) MSAs, which are very popular today, are contracts that can be used to quickly negotiate the work to be performed. When a master agreement is in place, the same terms do not have to be renegotiated every time you perform work for a customer. MSAs are especially beneficial when you perform a penetration test, and you know that you will be rehired on a recurring basis to perform additional tests in other areas of the company or to verify that the security posture of the organization has been improved as a result prior testing and remediation. An NDA is a legal document and contract between you and an organization that has hired you as penetration tester. An NDA specifies and defines confidential material, knowledge, and information that should not be disclosed and that should be kept confidential by both parties, NDAs can be classified as any of the following: Unilateral : Only one party discloses certain information to the other party. and the information must be kept protected and not disclosed. Bilateral : or mutual, or two-way, NDA both parties share sensitive information with each with each other, and this information should not be disclosed to any other entity. Multilateral : This type of NDA involves three or more parties, with at least one of the parties disclosing sensitive information that should not be disclosed to any entity outside the agreement. Multilateral NDAs are used in the event that an organization external to your customer (business partner, service provider, and so on) should also be engaged in the penetration testing engagement. statements such as "the penetration test report cannot and does not protect against personal or business loss resulting from the test agreement" agreement regarding how to communicate and handle sensitive data, such as account credentials that were uncovered by the testing]]></description><link>academics/cisco/module-2/1.-comparing-and-contrasting-governance,-risk,-and-compliance-concepts.html</link><guid isPermaLink="false">Academics/Cisco/Module 2/1. Comparing and Contrasting Governance, Risk, and Compliance Concepts.md</guid><pubDate>Sun, 03 Aug 2025 05:15:32 GMT</pubDate></item><item><title><![CDATA[Pasted image 20250803103758]]></title><description><![CDATA[<img src="images/pasted-image-20250803103758.png" target="_self">]]></description><link>images/pasted-image-20250803103758.html</link><guid isPermaLink="false">images/Pasted image 20250803103758.png</guid><pubDate>Sun, 03 Aug 2025 05:07:58 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Pasted image 20250803102912]]></title><description><![CDATA[<img src="images/pasted-image-20250803102912.png" target="_self">]]></description><link>images/pasted-image-20250803102912.html</link><guid isPermaLink="false">images/Pasted image 20250803102912.png</guid><pubDate>Sun, 03 Aug 2025 04:59:12 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[2025.7.31 - 17.23pm]]></title><link>ink/drawing/2025.7.31-17.23pm.html</link><guid isPermaLink="false">Ink/Drawing/2025.7.31 - 17.23pm.drawing</guid><pubDate>Thu, 31 Jul 2025 11:57:27 GMT</pubDate></item><item><title><![CDATA[2. Performing Active Reconnaissance]]></title><description><![CDATA[common active reconnaissance tools and methods include the following : Host enumeration
+Network enumeration
+User enumeration
+Network share enumeration
+Web page enumeration
+Application Enumeration Service enumeration
+Packet crafting ]]></description><link>academics/cisco/module-3/2.-performing-active-reconnaissance.html</link><guid isPermaLink="false">Academics/Cisco/Module 3/2. Performing Active Reconnaissance.md</guid><pubDate>Sat, 26 Jul 2025 19:49:33 GMT</pubDate></item><item><title><![CDATA[2. Explaining the importance of Scoping and Organizational or Customer Requirements]]></title><description><![CDATA[Date: 2025-07-24
+Tags: <a data-href="regulations" href=".html" class="internal-link" target="_self" rel="noopener nofollow">regulations</a>The rules of engagement document specifies the conditions under which the security penetration testing engagement will be conducted. You need to document and agree upon these rule of engagement conditions with the client or an appropriate stakeholder. Gantt charts and work breakdown structures (WBS) can be used as tolls to demonstrate and document the timeline.<br>
+Sample Elements of Rules of Engagement Document: <img alt="Pasted image 20250726233547.png" src="images/pasted-image-20250726233547.png" target="_self">Scoping is one of the most important elements of the pre-engagement tasks with any penetration testing engagement. You not only have to carefully identify and document all systems, applications, and networks that will be tested but also determine any specific requirements and qualifications needed to perform the test. The broader the scope of the penetration testing engagement, the more skills and requirements that will be needed. You may also be hired to perform an assessment of modern applications using different application programming interfaces (APIs), like : <br>SOAP : simple Object Access Protocol is an API standard that relies on XML and related schemas. XML-based specifications are governed by XML schema definition (XSD) documents. Having good reference of what a specific API supports can be very beneficial for a penetration tester and will accelerate the testing. The SOAP specification can be accessed at <a data-tooltip-position="top" aria-label="https://www.w3.org/TR/soap" rel="noopener nofollow" class="external-link is-unresolved" href="https://www.w3.org/TR/soap" target="_self"><em></em></a>https://www.w3.org/TR/soap.
+<br>Swagger : (OpenAPI) documentation is a modern framework of API documentation and development that is now the basis of the OpenAPI Specification(OAS). These documents are used in representational state transfer (REST) APIs. REST is a software architectural style designed to guide development of the architecture for web services (including APIs). REST, or "RESTful," APIs are the most common types of APIs used today. Swagger documents can be extremely beneficial when testing APIs. Additional information about Swagger can be obtained at <a rel="noopener nofollow" class="external-link is-unresolved" href="https://swagger.io." target="_self">https://swagger.io.</a> The OAS is available at <a rel="noopener nofollow" class="external-link is-unresolved" href="https://github.com/OAI/OpenAPI-Specification" target="_self">https://github.com/OAI/OpenAPI-Specification</a>. <br>WSDL : Web Services Description Language is an XML-based language that is used to document the functionality of a web service. The WSDL specification can be accessed at <a rel="noopener nofollow" class="external-link is-unresolved" href="https://www.w3.org/TR/wsdl20-primer" target="_self">https://www.w3.org/TR/wsdl20-primer</a>.
+<br>GraphQL : is a query language for APIs, It is also a server-side runtime for executing queries using a type system you define for your data. Additional technical information about GraphQL can be accessed at <a rel="noopener nofollow" class="external-link is-unresolved" href="https://graphql.org/learn" target="_self">https://graphql.org/learn</a>.
+<br>WADL : Web Application Description Language is an XML-based language for describing web applications. The WADL specification can be obtained from <a data-tooltip-position="top" aria-label="https://www.w3.org/Submission/wadl" rel="noopener nofollow" class="external-link is-unresolved" href="https://www.w3.org/Submission/wadl" target="_self"><em></em></a>https://www.w3.org/Submission/wadl.
+It is very important to document the physical location where the penetration testing will be done, as well as the Domain Name System (DNS) fully qualified domain names (FQDNs) of the applications and assets that are allowed (including any subdomains). You must also agree and understand if you will be allowed to demonstrate how an external attacker could compromise your systems or how an insider could compromise internal assets. This external vs. internal target identification and scope should be clearly documented. It is a project management term that refers to the uncontrolled growth of a project's scope. It is also often referred to as kitchen sink syndrome, requirement creep, and function creep. Scope creep can put you out of business,. Many security firms suffer from scope creep and are unsuccessful because they have no idea how to identify when the problem starts or how to react to it.
+Situations in which you might encounter scope creep :
+When there is poor change management in the penetration testing engagement. when there is ineffective identification or what technical and nontechnical elements will be required for the penetration test When there is poor communication among stakeholders, including your client and your own team. The first step in validation the scope of an engagement is to question the client and review contracts. You must also understand who the target audience is for your penetration testing report. You should understand the subjects, business units, and any other entity that will be assessed by such a penetration testing engagement. Answering the following questions will help discover different characteristics of your target audience. What is the entity's or individual's need for the report ?
+What is the position of the individual who will be the primary recipient of the report within the organization?
+What is the main purpose and goal of the penetration testing engagement and ultimately the purpose of the report?
+What is the individual's or business unit's responsibility and authority to make decisions based on your findings?
+Who will the report be addressed to0 for example, the information security manager(ISM), chief information security officer (CISO), chief information officer (CIO), chief technical officer (CTO), technical teams, and so on?
+Who will have access to the report, which may contain sensitive information that should be protected, and whether access will be provided on a need-to-know basis?
+You should have proper documentation of answers to the following questions.
+What is the contact Information for all relevant stakeholders?
+How will you communicate with the stakeholders?
+How often do you need to interact with the stakeholders?
+Who are the individuals you can contact at any time if an emergency arises?
+You should ask for a form of secure bulk data transfer or storage, such as Secure Copy Protocol (SCP) or Secure File Transfer Protocol (SFTP). You should also exchange any pretty Good Privacy (PGP) keys or Secure/Multipurpose Internet Mail Extensions (S/MIME) keys for encrypted mail exchanges. questions about budget and return on investment (ROI) may arise from both the client side and the tester sides in penetration testing. Like : How do i explain the overall cost of penetration testing to my boss?
+Why do we need penetration testing if we have all these security technical and nontechnical controls in place?
+How do i build in penetration testing as success factor?
+Can i do it myself?
+How do i calculate the ROI for the penetration testing engagement?
+At the same time the tester needs to answer questions like these :
+How do i account for all items of the penetration testing engagement to avoid going over budget?
+How do i do pricing?
+How can i clearly show ROI to my clients? Also known as Black box pen testing, In this type of testing, The tester is typically provided only a very limited amount of information. For instance, the tester may be provided only the domain names and IP addresses that are in scope for a particular target. The idea of this type of limitation is to have the tester start out with the perspective that an external attacker might have. Typically, an attacker would first determine a target and then begin to gather information about the target, using public information, and gaining more and more information to use in attacks.
+The tester would not have prior knowledge of the target's organization and infrastructure. Another aspect of unknown-environment testing is that sometimes the network support personnel of the target may not be given information about exactly when the test is taking place. This allows for a defense exercise to take place, and it also eliminates the issue of a target preparing for the test and not giving a real-world view of the security posture.In this type of testing, White-box pen testing , the tester starts out with a significant amount of information about the organization and its infrastructure. The tester is normally provided things like network diagrams, IP addresses, configurations, and a set of user credentials. If the scope includes an applications assessment, the tester might also be provided the source code of the target application. The idea of this type of testing is to identify as many security holes as possible. ]]></description><link>academics/cisco/module-2/2.-explaining-the-importance-of-scoping-and-organizational-or-customer-requirements.html</link><guid isPermaLink="false">Academics/Cisco/Module 2/2. Explaining the importance of Scoping and Organizational or Customer Requirements.md</guid><pubDate>Sat, 26 Jul 2025 19:41:16 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Pasted image 20250726233547]]></title><description><![CDATA[<img src="images/pasted-image-20250726233547.png" target="_self">]]></description><link>images/pasted-image-20250726233547.html</link><guid isPermaLink="false">images/Pasted image 20250726233547.png</guid><pubDate>Sat, 26 Jul 2025 18:05:47 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[NMAP]]></title><description><![CDATA[Nmap (Network Mapper) is a free and open-source tool for:
+Network discovery Security auditing Port scanning OS detection Vulnerability scanning bashCopyEditnmap [options] [target]Example:bashCopyEditnmap 192.168.1.1bashCopyEditnmap -sn 192.168.1.0/24
+-sn: No port scan, just ping Useful for discovering live hosts bashCopyEditnmap 192.168.1.1bashCopyEditnmap -sV 192.168.1.1
+-sV: Detect services and versions bashCopyEditnmap -O 192.168.1.1
+-O: Try to guess the OS (root required) bashCopyEditnmap -A 192.168.1.1
+Enables: OS detection Version detection Script scanning Traceroute bashCopyEditnmap -p 21,22,80,443 192.168.1.1
+-p: Specify ports to scan bashCopyEditnmap -F 192.168.1.1bashCopyEditnmap example.comNmap has powerful built-in scripts for:
+Vulnerability scanning Malware detection Brute-forcing Enumeration bashCopyEditnmap --script=vuln 192.168.1.1]]></description><link>academics/cisco/tools/nmap.html</link><guid isPermaLink="false">Academics/Cisco/Tools/NMAP.md</guid><pubDate>Sat, 26 Jul 2025 03:15:26 GMT</pubDate></item><item><title><![CDATA[Spiderfoot]]></title><description><![CDATA[Date: 2025-07-26
+Tags: <a data-href="OSINT" href=".html" class="internal-link" target="_self" rel="noopener nofollow">OSINT</a> <a data-href="1. Performing Passive Reconnaissance" href="academics/cisco/module-3/1.-performing-passive-reconnaissance.html" class="internal-link" target="_self" rel="noopener nofollow">1. Performing Passive Reconnaissance</a> <a data-href="Reconnaissance" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Reconnaissance</a><br>
+<a href=".?query=tag:recon" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#recon">#recon</a> <a href=".?query=tag:passive_recon" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#passive_recon">#passive_recon</a> <a href=".?query=tag:tools" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#tools">#tools</a> <a href=".?query=tag:footprinting" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#footprinting">#footprinting</a>SpiderFoot is an open-source OSINT tool used for automated reconnaissance. It collects intelligence on IP addresses, domain names, emails, usernames, DNS records, etc., from over 200+ public data sources,
+Useful for:
+Ethical hacking &amp; penetration testing
+Footprinting &amp; reconnaissance phase
+Threat intelligence gathering GUI (web based ) and CLI mode
+over 200 OSINT modules (shodan, haveibeenpwned, virus total, etc)
+Detects: Vulnerabilities
+passive DNS data
+Leaked credentials
+WHOIS, ASN, SSL certs, etc. Supports Tor and proxy routing exportable reports (HTML, CSV, JSON, etc)
+we can start spiderfoot with the command : spiderfoot -l 127.0.0.1:5001
+and then in gui mode, we can create new scans and view reports of it.some of the modules in spiderfoot requires api key, for that we have to make account on that service website and get the api key and insert it in that module's setting. ]]></description><link>academics/cisco/tools/spiderfoot.html</link><guid isPermaLink="false">Academics/Cisco/Tools/Spiderfoot.md</guid><pubDate>Sat, 26 Jul 2025 02:57:54 GMT</pubDate></item><item><title><![CDATA[1. Performing Passive Reconnaissance]]></title><description><![CDATA[
+"If you know the enemy and know yourself, you need not fear the result of hundred battles. If you know yourself but not the enemy, for every victory gained you will also suffer a defeat. If you know neither the enemy nor yourself, you will succumb in every battle."
+- Sun Tzu, The Art of War
+Some common passive reconnaissance tools and methods include the following: Domain enumeration
+Packet inspection
+Open-source intelligence (OSINT)
+Recon-ng
+Eavesdropping ]]></description><link>academics/cisco/module-3/1.-performing-passive-reconnaissance.html</link><guid isPermaLink="false">Academics/Cisco/Module 3/1. Performing Passive Reconnaissance.md</guid><pubDate>Thu, 24 Jul 2025 21:32:12 GMT</pubDate></item><item><title><![CDATA[Objective1]]></title><description><![CDATA[create penetration testing preliminary documents. <a data-href="1. Comparing and Contrasting Governance, Risk, and Compliance Concepts" href="academics/cisco/module-2/1.-comparing-and-contrasting-governance,-risk,-and-compliance-concepts.html" class="internal-link" target="_self" rel="noopener nofollow">1. Comparing and Contrasting Governance, Risk, and Compliance Concepts</a>
+<br><a data-href="2. Explaining the importance of Scoping and Organizational or Customer Requirements" href="academics/cisco/module-2/2.-explaining-the-importance-of-scoping-and-organizational-or-customer-requirements.html" class="internal-link" target="_self" rel="noopener nofollow">2. Explaining the importance of Scoping and Organizational or Customer Requirements</a>
+<br><a data-href="3. Demonstrating an Ethical Hacking Mindset by maintaining professionalism and Integrity" href="academics/cisco/module-2/3.-demonstrating-an-ethical-hacking-mindset-by-maintaining-professionalism-and-integrity.html" class="internal-link" target="_self" rel="noopener nofollow">3. Demonstrating an Ethical Hacking Mindset by maintaining professionalism and Integrity</a> ]]></description><link>academics/cisco/module-2/objective1.html</link><guid isPermaLink="false">Academics/Cisco/Module 2/Objective1.md</guid><pubDate>Thu, 24 Jul 2025 21:26:19 GMT</pubDate></item><item><title><![CDATA[Glossary]]></title><description><![CDATA[<a data-tooltip-position="top" aria-label="1. Comparing and Contrasting Governance, Risk, and Compliance Concepts > PCI DSS" data-href="1. Comparing and Contrasting Governance, Risk, and Compliance Concepts#PCI DSS" href="academics/cisco/module-2/1.-comparing-and-contrasting-governance,-risk,-and-compliance-concepts.html#PCI DSS" class="internal-link" target="_self" rel="noopener nofollow">PCI DSS</a><br>
+<a data-tooltip-position="top" aria-label="1. Comparing and Contrasting Governance, Risk, and Compliance Concepts > ^a98557" data-href="1. Comparing and Contrasting Governance, Risk, and Compliance Concepts#^a98557" href="academics/cisco/module-2/1.-comparing-and-contrasting-governance,-risk,-and-compliance-concepts.html#^a98557" class="internal-link" target="_self" rel="noopener nofollow">Acquirer</a><br>
+<a data-tooltip-position="top" aria-label="1. Comparing and Contrasting Governance, Risk, and Compliance Concepts > ^4e7589" data-href="1. Comparing and Contrasting Governance, Risk, and Compliance Concepts#^4e7589" href="academics/cisco/module-2/1.-comparing-and-contrasting-governance,-risk,-and-compliance-concepts.html#^4e7589" class="internal-link" target="_self" rel="noopener nofollow">ASV</a>]]></description><link>academics/cisco/terminology/glossary.html</link><guid isPermaLink="false">Academics/Cisco/Terminology/Glossary.md</guid><pubDate>Thu, 24 Jul 2025 21:26:07 GMT</pubDate></item><item><title><![CDATA[Objective 2]]></title><description><![CDATA[Perform information gathering and vulnerability scanning activities. <a data-href="1. Performing Passive Reconnaissance" href="academics/cisco/module-3/1.-performing-passive-reconnaissance.html" class="internal-link" target="_self" rel="noopener nofollow">1. Performing Passive Reconnaissance</a><br>
+<a data-href="2. Performing Active Reconnaissance" href="academics/cisco/module-3/2.-performing-active-reconnaissance.html" class="internal-link" target="_self" rel="noopener nofollow">2. Performing Active Reconnaissance</a><br>
+<a data-href="3. Understanding the art of performing Vulnerability Scans" href="academics/cisco/module-3/3.-understanding-the-art-of-performing-vulnerability-scans.html" class="internal-link" target="_self" rel="noopener nofollow">3. Understanding the art of performing Vulnerability Scans</a><br>
+<a data-href="4. Understanding How to Analyze Vulnerability scan results" href="academics/cisco/module-3/4.-understanding-how-to-analyze-vulnerability-scan-results.html" class="internal-link" target="_self" rel="noopener nofollow">4. Understanding How to Analyze Vulnerability scan results</a>]]></description><link>academics/cisco/module-3/objective-2.html</link><guid isPermaLink="false">Academics/Cisco/Module 3/Objective 2.md</guid><pubDate>Thu, 24 Jul 2025 21:25:28 GMT</pubDate></item><item><title><![CDATA[4. Understanding How to Analyze Vulnerability scan results]]></title><link>academics/cisco/module-3/4.-understanding-how-to-analyze-vulnerability-scan-results.html</link><guid isPermaLink="false">Academics/Cisco/Module 3/4. Understanding How to Analyze Vulnerability scan results.md</guid><pubDate>Thu, 24 Jul 2025 21:23:51 GMT</pubDate></item><item><title><![CDATA[3. Understanding the art of performing Vulnerability Scans]]></title><link>academics/cisco/module-3/3.-understanding-the-art-of-performing-vulnerability-scans.html</link><guid isPermaLink="false">Academics/Cisco/Module 3/3. Understanding the art of performing Vulnerability Scans.md</guid><pubDate>Thu, 24 Jul 2025 21:23:33 GMT</pubDate></item><item><title><![CDATA[Main Objective]]></title><description><![CDATA[<a data-href="Objective1" href="academics/cisco/module-2/objective1.html" class="internal-link" target="_self" rel="noopener nofollow">Objective1</a><br>
+<a data-href="Objective 2" href="academics/cisco/module-3/objective-2.html" class="internal-link" target="_self" rel="noopener nofollow">Objective 2</a>]]></description><link>academics/cisco/main-objective.html</link><guid isPermaLink="false">Academics/Cisco/Main Objective.md</guid><pubDate>Thu, 24 Jul 2025 21:19:50 GMT</pubDate></item><item><title><![CDATA[3. Demonstrating an Ethical Hacking Mindset by maintaining professionalism and Integrity]]></title><description><![CDATA[Date: 2025-07-24
+Tags: <a data-href="regulations" href=".html" class="internal-link" target="_self" rel="noopener nofollow">regulations</a>]]></description><link>academics/cisco/module-2/3.-demonstrating-an-ethical-hacking-mindset-by-maintaining-professionalism-and-integrity.html</link><guid isPermaLink="false">Academics/Cisco/Module 2/3. Demonstrating an Ethical Hacking Mindset by maintaining professionalism and Integrity.md</guid><pubDate>Wed, 23 Jul 2025 22:14:01 GMT</pubDate></item><item><title><![CDATA[Practice Codes]]></title><description><![CDATA[#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std; class Person2{
+public: int pension; Person2(int p){ this-&gt;pension = p; this-&gt;show(); } void show(){ cout &lt;&lt; "Pension: " &lt;&lt; pension &lt;&lt; endl; };
+};
+class Person{
+public: string name; int age; Person(string name, int age, int bodycount, double s){ //constructor this-&gt;name = name; this-&gt;age = age; this-&gt;salary = s; this-&gt;bodycount = bodycount; this-&gt; show(); } Person(){ } // ~Person(){ // cout &lt;&lt; "delete all the scoped out variables and methods\n" ; // } void talk(){ //normal function // cout &lt;&lt; "blah blah blah blah"&lt;&lt; endl; cout &lt;&lt; salary&lt;&lt; endl; cout &lt;&lt; bodycount &lt;&lt; endl; } void show(){ cout &lt;&lt; "Name: " &lt;&lt; name &lt;&lt; endl; cout &lt;&lt; "age: " &lt;&lt; age &lt;&lt; endl; cout &lt;&lt; "bodycount: " &lt;&lt; bodycount &lt;&lt; endl; cout &lt;&lt; "salary : " &lt;&lt; salary &lt;&lt; endl; }
+private: double salary;
+protected: int bodycount;
+}; class Student : public Person, public Person2 {
+public: int rollno; Student(string name, int age, int bodycount,double salary, int r, int p): Person(name, age, bodycount, salary),Person2(p){ this-&gt;rollno = r; this-&gt;show(); }; void show () { cout &lt;&lt; "student overrided show()" &lt;&lt; endl; cout &lt;&lt; "roll no: " &lt;&lt; rollno &lt;&lt; endl; }; }; int main() { Student s1("harsh", 21, 1.1, 78000, 30, 5000);
+// cout &lt;&lt; s1.bodycount &lt;&lt; endl; return 0;
+}
+]]></description><link>academics/oops/practice-codes.html</link><guid isPermaLink="false">Academics/oops/Practice Codes.md</guid><pubDate>Wed, 23 Jul 2025 15:09:15 GMT</pubDate></item><item><title><![CDATA[Important Questions]]></title><description><![CDATA[
+Modularity : Code is divided into objects(classes), making it easier to manage. Reusability : Code can be reused using inheritance - no need to rewrite common functionalities. Encapsulation : Data and functions are bundled together, reducing complexity and increasing security.
+Abstraction : Hides internal implementation and shows only essential features. Inheritance : Promotes code reuse by allowing class to inherit properties and methods from another. Polymorphism : Allows The same function to behave differently based on the object(method overloading/overriding). Maintainability : Easier to update and debug due to modular structure.
+Security : Access modifiers (private, protected, public) control data access.
+Here’s a quick comparison table between OOP and Procedural Programming:
+It is bluepring/template for creating objects
+Defines properties (attributes) and methods (functions). class Car {
+public: string brand; void start() { cout &lt;&lt; "Car started"; }
+} It is a real-world instance of a class.
+Uses class blueprint to access data and behavior.
+Car myCar;
+myCar.brand = "BMW";
+myCar.start(); It is a special method Automatically called when a object is created.
+It is used to initialize objects.
+we can define the class properties by creating constructor funciton. and it is created by naming the function same name as of class.
+class MyClass {
+public: MyClass() { cout &lt;&lt; "Constructor called"; }
+}; A special method automatically called when an object is destroyed.
+Used to release resources (memory, files, etc.). class MyClass {
+public: ~MyClass() { cout &lt;&lt; "Destructor called"; }
+}
+##include &lt;iostream&gt;
+#define PI 3.14159
+using namespace std; class Circle {
+private: float radius;
+public: // Constructor to initailize radius Circle(float r){ radius = r } //Function to calculate area float getArea(){ return PI * radius * radius; } //Function to calculate perimeter(circumference) float getPerimiter () { return 2 * PI * radius; }
+}; int main() {
+float r;
+cout &lt;&lt; "Enter the radius of circle";
+cin &lt;&lt; r;
+//creating object and passing radius to constructor
+Circle c(r); cout &lt;&lt; "Area of Circle = " &lt;&lt; c.getArea() &lt;&lt; endl;
+cout &lt;&lt; "Perimiter of Circle = " &lt;&lt; c.getPerimeter() &lt;&lt; endl;
+return 0;
+}
+Ink drawing file not found. A reference variable is an alias (another name) for an existing variable.
+Shares the same memory location as the original variable.
+declared using &amp; symbol.
+Any change to the reference affects the original variable.
+Must be initialized at the time of declaration.
+#include &lt;iostream&gt;
+using namespace std;
+int main(){
+int a = 10;
+int &amp;ref = a; //ref is reference to a cout &lt;&lt; "x = " &lt;&lt; x &lt;&lt; endl;
+cout &lt;&lt; "ref = " &lt;&lt; ref &lt;&lt; endl; ref = 20;
+cout &lt;&lt; "x = " &lt;&lt; x &lt;&lt; endl;
+cout &lt;&lt; "ref = " &lt;&lt; ref &lt;&lt; endl; return 0; Function arguments (Pass by reference)
+Avoid data copying (faster)
+To return multiple values from a function
+A friend function is a special function that is not a member of a class but still has access to its private and protected members.
+Declared using the keyword friend inside the class.
+Defined outside the class like a normal function
+Not called with an object; it takes objects as parameters.
+Used when external functions need access to class internals.
+class Box {
+private: int length;
+public: Box() { length = 10;} friend void showLength(Box b); //Friend function declaration
+}; void showLength(Box b) { // Friend function definition cout &lt;&lt; "Length: " &lt;&lt; b.length &lt;&lt; endl;
+}
+It is a member function in a base class that you can override in a derived class using virtual keyword. Declared using virtual in the base class.
+Enables runtime polymorphism.
+Ensures the derived class's version is called via base class Pointer.
+Must be overridden in derived class for custom behavior. class Base {
+public: virtual void show() { cout &lt;&lt; "Base class show" &lt;&lt; endl; }
+}; class Derived : public Base {
+public: void show() override { cout &lt;&lt; "Derived class show" &lt;&lt; endl; }
+}; int main() { Base* ptr; Derived d; ptr = &amp;d; ptr-&gt;show(); // Calls Derived's show() due to virtual function
+} It is a function where the code is expanded at the point of the function call, instead of making a traditional function call.
+Declared using the inline keyword before the function.
+Avoids overhead of function calls (especially for small functions).
+Compiler replaces the function call with actual code.
+useful for short and frequently called functions. #include &lt;iostream&gt;
+using namespace std; inline int square(int x) { return x * x;
+} int main() { cout &lt;&lt; "Square of 5: " &lt;&lt; square(5); //output 25 return 0;
+}
+It is the process of hiding internal details and showing only the essentials features of an object to the user. Focuses on What an object does, not how it does it. Reduces complexity and increases code clarity.
+class Shape{
+public: virtual void draw() = 0; //pure virtual function (abstract)
+};
+class Circle : public Shape{
+public: void draw() override { cout &lt;&lt; "Drawing Circle" &lt;&lt; endl; }
+}; When driving a car, you use the steering and pedals (what to do), but you don’t need to know the engine's internal mechanism (how it works).
+A function template allows you to create a single function to work with different data types(int, float, char,etc) without rewriting code.
+Defined using the template keyword.
+Enables generic programming.
+compiler generates the correct version of the function at compile time.
+template &lt;class T&gt;
+T functionName(T a, T a) { // function body
+}
+#include &lt;iostream&gt;
+using namespace std; //template function to find the largest of three
+template &lt;class T&gt;
+T largest(T a,T b,T c) { if( a&gt;= b &amp;&amp; a &gt;= c) return a; else if(b &gt;= a &amp;&amp; b &gt;= c) return b; else return c;
+}
+int main(){ cout &lt;&lt; "Largest (int): " &lt;&lt; largest(10, 25, 15) &lt;&lt; endl; cout &lt;&lt; "Largest (float): " &lt;&lt; largest(5.6f, 7.2f, 6.1f) &lt;&lt; endl; cout &lt;&lt; "Largest (char): " &lt;&lt; largest('x','a', 'm') &lt;&lt; endl; return 0;
+}
+#include &lt;iostream&gt;
+using namespace std; int main() { int n, sum=0; cout &lt;&lt; "Enter the number of terms: "; cin &gt;&gt; n; for (int i=0; i&lt;n; i++){ int term = 2 * i + 1; //Generates odd numbers sum += term; } cout &lt;&lt; "Sum of the series = " &lt;&lt; sum &lt;&lt; endl; return 0;
+}
+Or,
+we know that sum of odd numbers upto n terms is n^2#include &lt;iostream&gt;
+using namespace std; int main() { int n; cout &lt;&lt; "Enter the numbers of terms: "; cin &gt;&gt; n; cout &lt;&lt; "Sum of the series = " &lt;&lt; n*n &lt;&lt; endl; return 0;
+}
+Using the built-in Find() function: #include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std; int main() { string mainStr, subStr; cout &lt;&lt; "Enter the main string: "; getline(cin, mainStr); //Read the entire line including spaces cout &lt;&lt; "Enter the substring to search: "; getline(cin, subStr); size_t pos = mainStr.find(subStr); // returns "string::npos" if not found. if(pos != string::npos) { cout &lt;&lt; "Substring fount at position: " &lt;&lt; pos &lt;&lt; endl; } else { cout &lt;&lt; "Substing not found! " &lt;&lt; endl; } return 0;
+}
+Manual Substring search: #include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std; int main() { string mainStr, subStr; bool found = false; cout &lt;&lt; "Enter the main string: " ; getline(cin, mainStr); cout &lt;&lt; "Enter the sub string: " ; getline(cin, subStr); int mainLen = mainStr.length(); int subLen = subStr.length(); for(int i=0;i&lt;=mainLen - subLen; i++) { int j; for (j=0; j&lt;subLen; j++){ if(mainSt[i+j] != subStr[j]) { break; } } if ( j== subLen) { found = true; cout &lt;&lt; "Substring found at position: " &lt;&lt; i &lt;&lt; endl; break; } } if(!found){ cout &lt;&lt; "Substring not found!" &lt;&lt; endl; } return 0;
+}
+Polymorphism means "Many forms" , It allows object of different classes to be treated as objects of a common parent class. There are Two types: Resolved during compilation. Includes:
+Function Overloading
+#include &lt;iostream&gt;
+using namespace std; class Math {
+public: //same function name, different parameters int add(int a, int b) { return a+b; } double add(double a, double b) { return a+b; }
+}; int main(){ Math m; cout &lt;&lt; m.add(2,3) &lt;&lt; endl; //calls int version -&gt; 5 cout &lt;&lt; m.add(2.5, 3.7) &lt;&lt; endl: //calls double version -&gt; 6.2 return 0;
+} Operator Overloading
+#include &lt;iostream&gt;
+using namespace std; clas Vector {
+public: int x,y; vector(int x, int y) : x(x), y(y) {} // Overload '+' operator Vector operator+(Vector v) { return Vector(x+v.x, y+v.y); }
+};
+int main() { vector v1(1,2), v2(3,4); vector v3 = v1 + v2; //Uses overloaded '+' cout &lt;&lt; "Result: (" &lt;&lt; v3.x &lt;&lt; "," &lt;&lt; v3.y &lt;&lt; ")"; //(4,6) return 0;
+}
+#include &lt;iostream&gt;
+using namespace std; class Complex {
+public: int real,imag; Complex(int r=0,int i =0){ real = r; imag = i; } void print(){ cout &lt;&lt; "Complex No: "&lt;&lt; real &lt;&lt; "+ " &lt;&lt; imag + "i" ; } //Operator overloading Complex operator + (Complex c){ Complex temp; temp.real = real+c.real; temp.imag = imag+c.imag; return temp; } Complex operator * (Complex c){ Complex temp; temp.real = real*c.real-imag*c.imag; temp.imag = real*c.imag - imag*c.real; return temp; }
+}
+int main(){ Complex c1(4,6), c2(1,2); Complex c3 = c1+c2; c2.print(); return 0;
+}
+]]></description><link>academics/oops/important-questions.html</link><guid isPermaLink="false">Academics/oops/Important Questions.md</guid><pubDate>Fri, 18 Jul 2025 09:50:50 GMT</pubDate></item><item><title><![CDATA[Introduction to C++]]></title><description><![CDATA[
+C++ was developed by Bjarne Stroustrup at Bell labs (1980s).
+It is an extension of C with Object-Oriented programming (OOP) features.
+It's multi-paradigm (procedural + object-oriented). Powerful performance like C.
+Supports large, modular programs using OOP. Reusability: Use existing code. Scalability: Easy to extend. Security: Data hiding. Modularity: Programs are divided into objects. ✅ Exam Tip: "OOP increases reusability, scalability, security, and modularity."
+Focuses on objects rather than procedures. Objects are real-world entities (Car, Student, etc.) with data + methods. OOP Concepts: Class: Blueprint of objects. Object: Instance of a class. Inheritance: Child class inherits from parent class. Polymorphism: Same name, different behavior. Encapsulation: Binding data + methods. Abstraction: Hiding internal details. It refers to bundling of data (attributes) and methods (functions) that operates on the data into a single unit (class). It also involves restricting direct access to some of an object's components, which helps prevent unintended interference and misuse.
+Key Aspects of Encapsulation :
+Data Hiding - Making fields (variables) private and providing access via public methods (getters and setters) . Controlled Access : prevents external code from directly modifying internal data, ensuring validation and security.
+Modularity : Keeps related data and behavior together, improving code Organisation and reusability.
+#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std; class BankAccount {
+private: // Hidden access string owner; double balance;
+public: //controlled access BankAccount(string owner, double balance): owner(owner),balance(balance) {} void deposit(double amount){ if (amount &gt; 0) balance += amount;
+} void withdraw(double amount){ if (amoutn &gt; 0 &amp;&amp; amount &lt;= balance) balance -= amount;
+} double getBalance(){return balance;} string getOwner(){return owner;}
+}; int main(){ BankAccount acc("Alice", 1000); acc.deposit(500); acc.withdraw(200); cout &lt;&lt; "Balance: $" &lt;&lt; acc.getBalance() &lt;&lt; endl; return 0;
+}
+It is a fundamental OOP concept that allows a new class (derived/child class) to inherit properties and behaviors (methods and fields) from an existing class (base/parent class).Key Points: Reusability : Avoid rewriting the same code by inheriting from a base class.
+Extensibility : Child classes can add new features or modify inherited ones.
+Hierarchical Relationship : Represents an "is-a" relationship (eg, Car is a vehicle)
+Example of Single Inheritance#include &lt;iostream&gt;
+using namespace std; // Base class (Parent)
+class Vehicle {
+public: string brand = "Toyota"; void honk() { cout &lt;&lt; "Beep! Beep!" &lt;&lt; endl; }
+}; // Derived class (Child)
+class Car : public Vehicle { // 'public' inheritance
+public: string model = "Corolla";
+}; int main() { Car myCar; cout &lt;&lt; "Brand: " &lt;&lt; myCar.brand &lt;&lt; endl; // Inherited from Vehicle cout &lt;&lt; "Model: " &lt;&lt; myCar.model &lt;&lt; endl; // Own property myCar.honk(); // Inherited method return 0;
+}
+Example of multiple inheritance#include &lt;iostream&gt;
+using namespace std; //base class 1
+class Engine {
+public : void start() { cout &lt;&lt; "Engine started!" &lt;&lt; endl;}
+};
+//base class 2
+class MusicSystem {
+public: void play() { cout &lt;&lt; "Music playing" &lt;&lt; endl;}
+}; //Derived class (inherits from both)
+class Car : public Engine, public MusicSystem {}; int main() { Car mycar; mycar.start(); // From Engine mycar.play(); // from MusicSystem return 0;
+}
+Multilevel Inheritance#include &lt;iostream&gt;
+using namespace std; //base class
+class Animal {
+public: void eat() {cout &lt;&lt; "Eating..." &lt;&lt; endl;}
+};
+//derived class
+class Mammal : public Animal {
+public: void breate(){ cout &lt;&lt; "Breathing..." &lt;&lt; endl;}
+}; // Derived from Mammal
+class Dog : public Mammal {
+public: void bark() { cout &lt;&lt; "Barking..." &lt;&lt; endl;}
+};
+Hierarchical Inheritance#include &lt;iostream&gt;
+using namespace std; //Base class
+class Vehicle {
+public: void start() { cout &lt;&lt; "Vehicle started!" &lt;&lt; endl;}
+}; //Derived class 1
+class Car : public Vehicle {
+public: void drive() { cout &lt;&lt; "car is moving." &lt;&lt; endl;}
+}; //Derived class 2
+class Bike : public Vehicle {
+public: void ride() { cout &lt;&lt; "bike is running." &lt;&lt; endl;} };
+Hybrid Inheritance#include &lt;iostream&gt;
+using namespace std; //base class
+class Person {
+public: string name; Person(string n) : name(n){} void display() {cout &lt;&lt; "Name: " &lt;&lt; name &lt;&lt; endl;}
+}; //Derived 1
+class Student : public Person {
+public: int rollNo; Student(string n, int r) : Person(n), rollNo(r) {}
+}; //Derived 2
+class Employee : public Person {
+public: int empId; Employee(string n, int id) : Person(n), empId(id) {}
+}; // Derived from both student and Employee
+class TeachingAsistant : public Student, public Employee {
+public: TeachingAssistant(string n, int r, int id) : Student(n,r), Employee(n, id) {}
+}; int main() {
+TeachingAssistant ta("Alice", 101, 1001); //ta.diaplay(); ❌Error (ambiguous, which display() to call?) //Solution : Use scope resolution ta.Student::display(); //calls Person's display() via Student cout &lt;&lt; "Roll NO: " &lt;&lt; ta.rollNo &lt;&lt; endl; coutn &lt;&lt; "Employee ID: " &lt;&lt; ta.empId &lt;&lt; endl;
+return 0;
+}
+Ink drawing file not found.Polymorphism means "Many forms" , It allows object of different classes to be treated as objects of a common parent class. There are Two types: Resolved during compilation. Includes:
+Function Overloading
+#include &lt;iostream&gt;
+using namespace std; class Math {
+public: //same function name, different parameters int add(int a, int b) { return a+b; } double add(double a, double b) { return a+b; }
+}; int main(){ Math m; cout &lt;&lt; m.add(2,3) &lt;&lt; endl; //calls int version -&gt; 5 cout &lt;&lt; m.add(2.5, 3.7) &lt;&lt; endl: //calls double version -&gt; 6.2 return 0;
+} Operator Overloading
+#include &lt;iostream&gt;
+using namespace std; clas Vector {
+public: int x,y; vector(int x, int y) : x(x), y(y) {} // Overload '+' operator Vector operator+(Vector v) { return Vector(x+v.x, y+v.y); }
+};
+int main() { vector v1(1,2), v2(3,4); vector v3 = v1 + v2; //Uses overloaded '+' cout &lt;&lt; "Result: (" &lt;&lt; v3.x &lt;&lt; "," &lt;&lt; v3.y &lt;&lt; ")"; //(4,6) return 0;
+}
+resolved during runtime using:
+***Function overrinding (with virtual functions)
+#include &lt;iostream&gt;
+using namespace std; class Animal {
+public: virtual void sound() { // 'virtual' enables overriding cout &lt;&lt; "Animal makes sound\n"; }
+}; class Dog : public Animal {
+public: void sound() override { cout &lt;&lt; "Dog barks: Woof!\n"; }
+}; class Cat : public Animal {
+public: void sound() override { cout &lt;&lt; "Cat meows: Meow!\n"; }
+}; int main() {
+Animal* a1 = new Dog();
+Animal* a2 = new Cat(); a1-&gt;sound();
+a2-&gt;sound(); delete a1, a2;
+return 0
+}
+Key Points:
+virtual keyword allows runtime binding.
+Without virtual, the base class method runs (early binding).
+override (c++11) ensures correct overriding. -&gt;&nbsp;is used for&nbsp;pointer access&nbsp;(shortcut for&nbsp;(*a1).sound()). .&nbsp;is used for&nbsp;direct object access. new Dog()&nbsp;creates a&nbsp;Dog&nbsp;object&nbsp;on the heap&nbsp;(not automatic cleanup). Returns a&nbsp;pointer&nbsp;to that object (Animal*).
+it focuses on hiding complex implementation details while exposing only the essential features to users.
+"Show what an object does, not how it does it." Abstract Class
+#include &lt;iostream&gt;
+using namespace std; //Abstract class (cannot be instantiated)
+class Shape {
+public: //pure virtual function (makes shape abstract) virtual float area() = 0; void printArea() { cout &lt;&lt; "Area: " &lt;&lt; area() &lt;&lt; endl; // Uses abstract method }
+}; //Concrete class (implements the abstraction)
+class Circle : public Shape { float radius;
+public: Circle(float r) : radius(r) {} //Must implement area() (otherwise circle becomes abstract too) float area() override { return 3.14 * radius * radius; }
+};
+int main() { //shape s; // ❌ Error - can't instantiate abstract class Circle c(5); c.printArea(); // Output: Area: 78.5 return 0;
+} Interface (Pure Abstract Class)
+class Drawable {
+public: virtual void draw() =0; //pure virtual function virtual ~Drawable() {} //virtual destructor
+}; class Circle : public Drawable {
+public: void draw() override { cout &lt;&lt; "Drawing a circle" &lt;&lt; endl; }
+}; int main(){ Drawable* d = new circle(); d-&gt;draw(); delete d; return 0;
+} Simplifies Complex Systems Users interact with high-level interfaces without worrying about internal details. Reduces Complexity Changes to implementation don't affect code using the abstraction. Enforces Structure Derived classes must implement all abstract methods. Supports Polymorphism Enables runtime binding through base class pointers/references. ]]></description><link>academics/oops/introduction-to-c++.html</link><guid isPermaLink="false">Academics/oops/Introduction to C++.md</guid><pubDate>Thu, 17 Jul 2025 18:46:31 GMT</pubDate></item></channel></rss>
