@@ -4,75 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "04b9db75ae6b9176",
-        "type": "split",
+        "id": "82af242517a7e3e4",
+        "type": "tabs",
         "children": [
           {
-            "id": "82af242517a7e3e4",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "d8ed8302d30dc99a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Academics/NPTEL/WEEK 1/TCP-IP Protocol Stack.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "TCP-IP Protocol Stack"
-                }
-              }
-            ]
-          },
-          {
-            "id": "7b2b3954c9c5799a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "9aa19b5b842510a8",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "terminal:terminal",
-                  "state": {
-                    "terminal:terminal": {
-                      "cwd": "/home/cyberdaddy/Documents/notes",
-                      "focus": false,
-                      "profile": {
-                        "args": [],
-                        "executable": "/bin/sh",
-                        "name": "",
-                        "platforms": {
-                          "linux": true
-                        },
-                        "pythonExecutable": "python3",
-                        "restoreHistory": false,
-                        "successExitCodes": [
-                          "0",
-                          "SIGINT",
-                          "SIGTERM"
-                        ],
-                        "terminalOptions": {
-                          "documentOverride": null
-                        },
-                        "type": "integrated",
-                        "useWin32Conhost": true
-                      },
-                      "serial": null
-                    }
-                  },
-                  "pinned": true,
-                  "icon": "terminal",
-                  "title": "Terminal: sh"
-                }
-              }
-            ]
+            "id": "d8ed8302d30dc99a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Academics/NPTEL/WEEK 1/TCP-IP Protocol Stack.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TCP-IP Protocol Stack"
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -145,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Academics/NPTEL/WEEK 1/TCP-IP Protocol Stack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for TCP-IP Protocol Stack"
             }
           },
           {
@@ -163,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Academics/NPTEL/WEEK 1/TCP-IP Protocol Stack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from TCP-IP Protocol Stack"
             }
           },
           {
@@ -191,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Academics/NPTEL/WEEK 1/TCP-IP Protocol Stack.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of TCP-IP Protocol Stack"
             }
           },
           {
@@ -232,7 +184,7 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "9aa19b5b842510a8",
+  "active": "d8ed8302d30dc99a",
   "lastOpenFiles": [
     "Academics/NPTEL/WEEK 1/TCP-IP Protocol Stack.md",
     "images/Pasted image 20250805025704.png",
