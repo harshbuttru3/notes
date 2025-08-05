@@ -46,7 +46,7 @@ In circuit switching, Three steps are required for communication,
 	- Each intermediate network node receives a whole packet. 
 	- Decides the route. 
 	- Forwards the packet along the selected route. 
-- Each intermediate note (router) maintains a **routing table**. 
+- Each intermediate node (router) maintains a **routing table**. 
 
 #### Advantages : 
 - Links can be shared; so link utilization is better. 
@@ -123,9 +123,9 @@ Open systems interconnection (OSI) reference model.
 ![[Pasted image 20250803102912.png]]
 ### Layer Functions :
 ##### 1. Physical : 
-Transmit raw bit  stream over a physical medium (eg. copper wire, Ethernet cable, fibre optics)
+Transmit raw bit  stream over a physical medium (eg. copper wire, Ethernet cable, fibre optics, wifi, bluetooth,etc)
 ##### 2. Data link : 
-Reliable transfer of frames over a point-to-point link (flow control, error control ). 
+Reliable transfer of **frames** over a point-to-point link (flow control, error control ). 
 ##### 3. Network : 
 - Establishing, maintaining and terminating connections.
 - Routes packets through point-to-point links. 
