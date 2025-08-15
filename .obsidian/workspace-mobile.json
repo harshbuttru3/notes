@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Academics/NPTEL/WEEK 1/Basic Concepts of Networking.md",
+                "file": "Academics/NPTEL/WEEK 2/IP addressing and routing.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Basic Concepts of Networking"
+              "title": "IP addressing and routing"
             }
           }
         ]
@@ -112,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Academics/NPTEL/WEEK 1/Basic Concepts of Networking.md",
+            "file": "Academics/NPTEL/WEEK 1/TCP-IP Protocol Stack.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -171,6 +171,8 @@
   "active": "bb4c9b31f12abfd3",
   "lastOpenFiles": [
     "Academics/NPTEL/WEEK 1/TCP-IP Protocol Stack.md",
-    "Academics/NPTEL/WEEK 1/Basic Concepts of Networking.md"
+    "Academics/NPTEL/WEEK 2/IP addressing and routing.md",
+    "Academics/NPTEL/WEEK 1/Basic Concepts of Networking.md",
+    "Academics/NPTEL/WEEK 2"
   ]
 }
