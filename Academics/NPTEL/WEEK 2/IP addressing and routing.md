@@ -52,4 +52,111 @@
 		- **D bit** :: don't fragment; prevents fragmentation from taking place. 
 		- **M bit** :: more fragment; specifies if this fragment is the last one in the original packet or not. 
 	![[Pasted image 20250808231620.png]]
-	
+## Basic IP addressing 
+- Each host connected to the internet is identified by a unique  IP address.
+- An IP address is a 32-bit quantity
+	-  Expressed as a dotted decimal notation W.X.Y.Z, Where dots are used to separate each of these four octets of the address.
+	- Consists of two logical parts : 
+		- A network number
+		- A host number
+	- This partition defines the ***IP address classes.*** 
+![[Pasted image 20250820071430.png]]
+
+# Hierarchical Addressing
+- A computer on the internet is addressed using a two-tuple: 
+	- The network number
+		-  Assigned and managed by central authority.
+	- The host number 
+		-  Assigned and managed by local network admin.
+- When routing a packet to the destination network, only the network number is looked at. 
+
+## IP address classes 
+- There are five defined IP address classes. 
+	- Class A   UNICAST
+	- Class B   UNICAST 
+	- Class C   UNICAST
+	- Class D   MULTICAST
+	- Class E   RESERVED
+- Identified by the first few bits in the IP address.
+- There also exists some special purpose IP addresses.
+- The class-based addressing is also known as the ***classful model*** . 
+
+
+#### Class A address : 
+
+| 0   | Network | Host | Host | Host |
+| --- | ------- | ---- | ---- | ---- |
+
+- **Network bits :** 7
+				Number of networks = 2$^7$ - 1 = 127
+- **Host bits :** 24
+				Number of hosts = 2$^{24}$ - 1 = 16,777,214
+- **Address range :** 
+	- 0.0.0.0 to 127.255.255.255
+
+---
+#### Class B address : 
+
+| 0   | Network | Network | Host | Host |
+| --- | ------- | ------- | ---- | ---- |
+
+- **Network bits :** 14
+				Number of networks = 2$^{14}$ - 1 = 16,383
+- **Host bits :** 16
+				Number of hosts = 2$^{16}$ - 1 = 65,534
+- **Address range :** 
+	- 128.0.0.0 to 191.255.255.255
+
+--- 
+#### Class A address : 
+
+| 0   | Network | Host | Host | Host |
+| --- | ------- | ---- | ---- | ---- |
+
+- **Network bits :** 7
+				Number of networks = 2$^7$ - 1 = 127
+- **Host bits :** 24
+				Number of hosts = 2$^{24}$ - 1 = 16,777,214
+- **Address range :** 
+	- 0.0.0.0 to 127.255.255.255
+---
+#### Class C address : 
+
+| 0   | Network | Network | Network | Host |
+| --- | ------- | ------- | ------- | ---- |
+
+- **Network bits :** 21
+				Number of networks = 2$^{21}$ - 1 = 2,097,151
+- **Host bits :** 24
+				Number of hosts = 2$^{8}$ - 1 = 254
+- **Address range :** 
+	- 192.0.0.0 to 223.255.255.255
+
+---
+#### Class D address : 
+
+| 0   | Network | Network | Network | Network |
+| --- | ------- | ------- | ------- | ------- |
+
+- **Address range :** 
+	- 224.0.0.0 to 239.255.255.255
+
+
+## Special Purpose IP addresses 
+- Reserved for private use
+	- 10.x.x.x                          (class A)
+	- 172.16.x.x - 172.31.x.x  (class B)
+	- 192.168.x.x                    (class C)
+- Loopback / local address
+	- 127.0.0.0 - 127.255.255.255
+- Default network 
+	-  0.0.0.0
+- Limited broadcast 
+	- 255.255.255.255
+### Some Conventions 
+- Within a particular network (Class A, B or C), the first i.e **all 0** and last i.e **all 1** addresses serve special functions.
+	- The fist address represents the ***Network number***. 
+		- For example, 118.0.0.0
+	- The last address represents the directed ***broadcast address*** of the network.
+		- For example, 118.255.255.255
+

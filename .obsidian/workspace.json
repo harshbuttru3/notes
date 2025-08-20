@@ -20,6 +20,18 @@
               "icon": "lucide-file",
               "title": "IP addressing and routing"
             }
+          },
+          {
+            "id": "f8d0d2beadf01cf0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.10"
+            }
           }
         ]
       }
@@ -113,12 +125,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Academics/NPTEL/WEEK 1/TCP-IP Protocol Stack.md",
+                "file": "Academics/NPTEL/WEEK 2/IP addressing and routing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from TCP-IP Protocol Stack"
+              "title": "Outgoing links from IP addressing and routing"
             }
           },
           {
@@ -165,7 +177,8 @@
               "title": "All properties"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -173,6 +186,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -183,8 +197,27 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "d8ed8302d30dc99a",
+  "active": "700df699cb61061c",
   "lastOpenFiles": [
+    "Academics/NPTEL/WEEK 1/Basic Concepts of Networking.md",
+    "Academics/NPTEL/WEEK 1/TCP-IP Protocol Stack.md",
+    "Academics/Cisco/Main Objective.md",
+    "Academics/Cisco/Tools/Spiderfoot.md",
+    "Academics/Cisco/Tools/NMAP.md",
+    "Academics/Cisco/Terminology/Glossary.md",
+    "Academics/Cisco/Module 3/4. Understanding How to Analyze Vulnerability scan results.md",
+    "Academics/Cisco/Module 3/3. Understanding the art of performing Vulnerability Scans.md",
+    "Academics/Cisco/Module 3/2. Performing Active Reconnaissance.md",
+    "Academics/Cisco/Module 3/1. Performing Passive Reconnaissance.md",
+    "Academics/Cisco/Module 2/3. Demonstrating an Ethical Hacking Mindset by maintaining professionalism and Integrity.md",
+    "Academics/Cisco/Module 2/Objective1.md",
+    "Academics/Cisco/Module 2/2. Explaining the importance of Scoping and Organizational or Customer Requirements.md",
+    "Academics/Cisco/Module 2/1. Comparing and Contrasting Governance, Risk, and Compliance Concepts.md",
+    "Academics/oops/Practice Codes.md",
+    "Academics/oops/Introduction to C++.md",
+    "Academics/oops/Important Questions.md",
+    "Academics/NPTEL/WEEK 2/IP addressing and routing.md",
+    "images/Pasted image 20250820071430.png",
     "images/Pasted image 20250726233547.png",
     "images/Pasted image 20250808231620.png",
     "images/Pasted image 20250808230947.png",
@@ -194,25 +227,9 @@
     "images/Pasted image 20250803123039.png",
     "images/Pasted image 20250803123011.png",
     "images/Pasted image 20250803103758.png",
-    "images/Pasted image 20250803102912.png",
-    "Academics/NPTEL/WEEK 2/IP addressing and routing.md",
-    "Academics/Cisco/Module 2/3. Demonstrating an Ethical Hacking Mindset by maintaining professionalism and Integrity.md",
-    "Academics/Cisco/Module 2/2. Explaining the importance of Scoping and Organizational or Customer Requirements.md",
-    "Academics/Cisco/Module 2/1. Comparing and Contrasting Governance, Risk, and Compliance Concepts.md",
-    "Academics/NPTEL/WEEK 1/TCP-IP Protocol Stack.md",
     "Academics/NPTEL/WEEK 2",
-    "images/Pasted image 20250803125806.png",
     "General/TO-DO.md",
     "Academics/Cisco/Module 3/Objective 2.md",
-    "Academics/Cisco/Module 3/4. Understanding How to Analyze Vulnerability scan results.md",
-    "Academics/Cisco/Module 3/3. Understanding the art of performing Vulnerability Scans.md",
-    "Academics/Cisco/Module 3/2. Performing Active Reconnaissance.md",
-    "Academics/Cisco/Module 3/1. Performing Passive Reconnaissance.md",
-    "Academics/Cisco/Terminology/Glossary.md",
-    "Academics/Cisco/Tools/NMAP.md",
-    "Academics/Cisco/Main Objective.md",
-    "Academics/Cisco/Tools/Spiderfoot.md",
-    "Academics/Cisco/Module 2/Objective1.md",
     "Exported/site-lib/scripts/webpage.js",
     "Exported/site-lib/scripts/graph-wasm.wasm",
     "Exported/site-lib/scripts/graph-wasm.js",
@@ -222,10 +239,6 @@
     "Exported/site-lib/styles/main-styles.css",
     "Exported/site-lib/html/file-tree-content.html",
     "Exported/site-lib/styles/global-variable-styles.css",
-    "Academics/oops/Introduction to C++.md",
-    "Academics/oops/Important Questions.md",
-    "Academics/oops/Practice Codes.md",
-    "Academics/NPTEL/WEEK 1/Basic Concepts of Networking.md",
     "[[.md",
     "2025-07-24.md",
     "Zettellkasten/A - Template/Cisco Objective.md",
