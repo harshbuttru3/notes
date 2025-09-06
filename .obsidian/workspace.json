@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Academics/NPTEL/WEEK 2/3. IP Subnetting.md",
+                "file": "Academics/NPTEL/WEEK 4/Reconnaissance (Information Gathering ).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. IP Subnetting"
+              "title": "Reconnaissance (Information Gathering )"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Academics/NPTEL/WEEK 2/3. IP Subnetting.md",
+                "file": "Academics/NPTEL/WEEK 4/Reconnaissance (Information Gathering ).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 3. IP Subnetting"
+              "title": "Outgoing links from Reconnaissance (Information Gathering )"
             }
           },
           {
@@ -187,12 +187,14 @@
   },
   "active": "d8ed8302d30dc99a",
   "lastOpenFiles": [
+    "images/Pasted image 20250825050913.png",
+    "Academics/NPTEL/WEEK 4/Reconnaissance (Information Gathering ).md",
     "Academics/NPTEL/WEEK 2/3. IP Subnetting.md",
+    "Academics/NPTEL/WEEK 4",
     "Academics/NPTEL/WEEK 1/2. TCP-IP Protocol Stack.md",
     "Academics/NPTEL/WEEK 1/1. Basic Concepts of Networking.md",
     "Academics/NPTEL/WEEK 2/2. TCP and UDP.md",
     "Academics/NPTEL/WEEK 2/1. IP addressing and routing.md",
-    "Pasted image 20250825050913.png",
     "images/Pasted image 20250825050210.png",
     "images/Pasted image 20250825044604.png",
     "Ink/Drawing/2025.8.25 - 4.44am.drawing",
@@ -228,9 +230,7 @@
     "Exported/site-lib/scripts/graph-render-worker.js",
     "Exported/site-lib/styles/theme.css",
     "Exported/site-lib/styles/obsidian.css",
-    "Exported/site-lib/styles/main-styles.css",
     "[[.md",
-    "2025-07-24.md",
-    "Zettellkasten/A - Template/Cisco Objective.md"
+    "2025-07-24.md"
   ]
 }
