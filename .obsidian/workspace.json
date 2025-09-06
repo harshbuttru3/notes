@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Academics/NPTEL/WEEK 4/Reconnaissance (Information Gathering ).md",
+                "file": "General/TO-DO.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reconnaissance (Information Gathering )"
+              "title": "TO-DO"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Academics/NPTEL/WEEK 4/Reconnaissance (Information Gathering ).md",
+                "file": "General/TO-DO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Reconnaissance (Information Gathering )"
+              "title": "Outgoing links from TO-DO"
             }
           },
           {
@@ -170,7 +170,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
