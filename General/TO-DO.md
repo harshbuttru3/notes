@@ -6,8 +6,11 @@
 - [ ] testing and deploy.
 - [x] cancellation policy in mybusmyseat
 - [ ] staff editing and conductor access for discount.
-- [ ] agent creation, seat block and seat release. 
+- [x] agent creation, seat block and seat release. 
 - [ ] post matric scholarship 
+- [ ] cast and income certificate 
+- [ ] Library card 
+- [ ] 
 
 
 
