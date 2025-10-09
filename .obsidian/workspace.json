@@ -28,11 +28,13 @@
               "type": "markdown",
               "state": {
                 "file": "Academics/scrapbook/week 4 NPTEL.md",
+                "file": "Academics/NPTEL/WEEK 3/Routing Protocols.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "week 4 NPTEL"
+              "title": "Routing Protocols"
             }
           }
         ],
@@ -93,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 344.51103591918945
+    "width": 344.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "cef5635b5025702e",
@@ -110,6 +113,7 @@
               "type": "backlink",
               "state": {
                 "file": "Academics/NPTEL/WEEK 1/TCP-IP Protocol Stack.md",
+                "file": "Academics/NPTEL/WEEK 2/TCP and UDP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,6 +124,7 @@
               },
               "icon": "links-coming-in",
               "title": "Backlinks for TCP-IP Protocol Stack"
+              "title": "Backlinks for TCP and UDP"
             }
           },
           {
@@ -128,12 +133,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Academics/NPTEL/WEEK 1/TCP-IP Protocol Stack.md",
+                "file": "General/TO-DO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from TCP-IP Protocol Stack"
+              "title": "Outgoing links from TO-DO"
             }
           },
           {
@@ -180,15 +185,19 @@
               "title": "All properties"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -201,52 +210,53 @@
     }
   },
   "active": "c33727c0811350eb",
+  "active": "700df699cb61061c",
   "lastOpenFiles": [
-    "Academics/scrapbook/week 4 NPTEL.md",
-    "Academics/scrapbook",
+    "images/Pasted image 20250907162046.png",
+    "images/Pasted image 20250907160835.png",
+    "images/Pasted image 20250907160139.png",
+    "images/Pasted image 20250907155822.png",
+    "images/Pasted image 20250907155743.png",
+    "images/Pasted image 20250907155707.png",
+    "images/Pasted image 20250907155615.png",
+    "Ink/Drawing/2025.9.7 - 15.45pm.drawing",
+    "Ink/Drawing/2025.9.7 - 15.41pm.drawing",
+    "Ink/Writing/2025.9.7 - 15.41pm (2).writing",
+    "Ink/Writing/2025.9.7 - 15.41pm.writing",
+    "Ink/Writing",
+    "Academics/NPTEL/WEEK 4/Reconnaissance (Information Gathering ).md",
+    "Academics/NPTEL/WEEK 3/Routing Protocols.md",
+    "Academics/NPTEL/WEEK 3",
     "General/TO-DO.md",
-    "Academics/NPTEL/WEEK 1/TCP-IP Protocol Stack.md",
-    "Academics/NPTEL/WEEK 1/Basic Concepts of Networking.md",
-    "images/Pasted image 20250805025704.png",
-    "images/Pasted image 20250805024041.png",
-    "images/Pasted image 20250805023840.png",
-    "images/Pasted image 20250803123039.png",
-    "images/Pasted image 20250803123011.png",
-    "images/Pasted image 20250803103758.png",
-    "images/Pasted image 20250803102912.png",
-    "images/Pasted image 20250726233547.png",
-    "Academics/NPTEL/WEEK 2/IP addressing and routing.md",
-    "Academics/oops/Practice Codes.md",
-    "Academics/oops/Introduction to C++.md",
-    "Academics/oops/Important Questions.md",
-    "Zettellkasten/A - Template/Cisco Notes.md",
-    "Zettellkasten/A - Template/General Note.md",
-    "Zettellkasten/A - Template/Cisco Objective.md",
-    "Academics/Cisco/Module 3/1. Performing Passive Reconnaissance.md",
-    "Academics/Cisco/Module 2/Objective1.md",
+    "Untitled",
+    "images/Pasted image 20250825050913.png",
+    "Academics/NPTEL/WEEK 2/3. IP Subnetting.md",
+    "Academics/NPTEL/WEEK 4",
+    "Academics/NPTEL/WEEK 1/2. TCP-IP Protocol Stack.md",
+    "Academics/NPTEL/WEEK 1/1. Basic Concepts of Networking.md",
+    "Academics/NPTEL/WEEK 2/2. TCP and UDP.md",
+    "Academics/NPTEL/WEEK 2/1. IP addressing and routing.md",
+    "images/Pasted image 20250825050210.png",
+    "images/Pasted image 20250825044604.png",
+    "Ink/Drawing/2025.8.25 - 4.44am.drawing",
+    "Ink/Drawing/2025.8.25 - 4.43am.drawing",
+    "images/Pasted image 20250825040109.png",
+    "Academics/Cisco/Tools/NMAP.md",
+    "Academics/Cisco/Main Objective.md",
     "Academics/Cisco/Module 2/3. Demonstrating an Ethical Hacking Mindset by maintaining professionalism and Integrity.md",
+    "Academics/Cisco/Module 2/Objective1.md",
     "Academics/Cisco/Module 2/2. Explaining the importance of Scoping and Organizational or Customer Requirements.md",
     "Academics/Cisco/Module 2/1. Comparing and Contrasting Governance, Risk, and Compliance Concepts.md",
-    "Reconnaissance.md",
-    "OSINT.md",
     "Academics/Cisco/Tools/Spiderfoot.md",
-    "Academics/Cisco/Module 3/Objective 2.md",
-    "Academics/NPTEL/WEEK 2",
-    "images/Pasted image 20250803125806.png",
-    "images/Pasted image 20250805011408.png",
+    "Academics/Cisco/Terminology/Glossary.md",
     "Academics/Cisco/Module 3/4. Understanding How to Analyze Vulnerability scan results.md",
     "Academics/Cisco/Module 3/3. Understanding the art of performing Vulnerability Scans.md",
     "Academics/Cisco/Module 3/2. Performing Active Reconnaissance.md",
-    "Academics/Cisco/Terminology/Glossary.md",
-    "Academics/Cisco/Tools/NMAP.md",
-    "Academics/Cisco/Main Objective.md",
-    "Exported/site-lib/scripts/webpage.js",
-    "Exported/site-lib/scripts/graph-wasm.wasm",
-    "Exported/site-lib/scripts/graph-wasm.js",
-    "Exported/site-lib/scripts/graph-render-worker.js",
-    "Exported/site-lib/styles/theme.css",
-    "Exported/site-lib/styles/obsidian.css",
-    "Exported/site-lib/styles/main-styles.css",
-    "Exported/site-lib/html/file-tree-content.html"
+    "Academics/Cisco/Module 3/1. Performing Passive Reconnaissance.md",
+    "Academics/oops/Practice Codes.md",
+    "Academics/oops/Introduction to C++.md",
+    "Academics/oops/Important Questions.md",
+    "Academics/Cisco/Module 3/Objective 2.md",
+    "[[.md"
   ]
 }
