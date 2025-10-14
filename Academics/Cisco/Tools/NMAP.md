@@ -29,17 +29,7 @@
 
 ### ⚙️ Basic Syntax
 
-bash
-
-CopyEdit
-
-`nmap [options] [target]`
-
-Example:
-
-bash
-
-CopyEdit
+`nmap [scan types] [options] [target]`
 
 `nmap 192.168.1.1`
 
@@ -48,10 +38,6 @@ CopyEdit
 ## 🧪 Common Nmap Commands
 
 ### 🟢 1. Ping Scan (Find live hosts)
-
-bash
-
-CopyEdit
 
 `nmap -sn 192.168.1.0/24`
 
@@ -64,19 +50,11 @@ CopyEdit
 
 ### 🟡 2. Port Scan (Default 1000 ports)
 
-bash
-
-CopyEdit
-
 `nmap 192.168.1.1`
 
 ---
 
 ### 🔵 3. Service Version Detection
-
-bash
-
-CopyEdit
 
 `nmap -sV 192.168.1.1`
 
@@ -87,10 +65,6 @@ CopyEdit
 
 ### 🟣 4. OS Detection
 
-bash
-
-CopyEdit
-
 `nmap -O 192.168.1.1`
 
 - `-O`: Try to guess the OS (root required)
@@ -99,10 +73,6 @@ CopyEdit
 ---
 
 ### 🔴 5. Full Scan (Intense)
-
-bash
-
-CopyEdit
 
 `nmap -A 192.168.1.1`
 
@@ -121,10 +91,6 @@ CopyEdit
 
 ### 🔍 6. Specific Port Scan
 
-bash
-
-CopyEdit
-
 `nmap -p 21,22,80,443 192.168.1.1`
 
 - `-p`: Specify ports to scan
@@ -135,9 +101,6 @@ CopyEdit
 ### ⚡ 7. Fast Scan (100 ports only)
 
 bash
-
-CopyEdit
-
 `nmap -F 192.168.1.1`
 
 ---
@@ -145,9 +108,6 @@ CopyEdit
 ### 🌐 8. Scan a Website
 
 bash
-
-CopyEdit
-
 `nmap example.com`
 
 ---
@@ -191,10 +151,6 @@ Nmap has powerful built-in scripts for:
     
 
 ### 🔧 Use NSE Scripts
-
-bash
-
-CopyEdit
 
 `nmap --script=vuln 192.168.1.1`
 

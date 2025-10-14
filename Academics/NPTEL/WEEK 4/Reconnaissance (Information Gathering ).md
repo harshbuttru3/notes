@@ -69,4 +69,28 @@
 - If we are analysing social media accounts then we can follow the targeted person/organisation to get all new updates. 
 - We can even look into groups, forums, and blogs. 
 - Simple browsing of the website can identify the software, database used, etc. 
-- 
+
+
+## Active Reconnaissance : 
+- In this type of information gathering we collect information directly by communicating with victim system.
+	- can provide more detailed information about target machine. But as we are directly communicating with target there is also rick of detection. 
+	- Can be carried out using Network Mapper (NMAP), Nessus, Metasploit framework, etc. 
+	- We can also use Mail tracker and DNS enumeration, Email enumeration, etc.
+### DNS and Mail Server Enumeration : 
+- In the enumeration process, attacker creates active connections to system and performs directed queries to gain information about the target.
+- DNS/Mail server enumeration is the process of locating all DNS servers and their corresponding records for an organization. 
+	- Can yield usernames, computer names, and IP addresses of potential target systems. 
+	- Can reveal the size of the organization that can translate to the potential size of the attack.
+- Tools used : 
+	- [nslookup](nslookup) , [host](host) ,[[week 4 NPTEL#DIG|dig]] , etc. 
+
+### Scanning : 
+- In active reconnaissance scanning tool performs major role.
+- Scanning can be used to detect : 
+	- Live host in a network and network infrastructure.
+	- Open ports.
+	- Service running in some particular port. 
+	- Operating system of target machine
+	- Vulnerabilities of network/application/OS/target system.
+- Tools used : 
+	- Nmap, zenMap, Nessus, Nexpose,etc.

@@ -15,3 +15,18 @@ dnsenum <doman_url> will enumerate automatically all the possible data and brute
 
 ## dnsrecon 
 nhi padhaya to sayd nhi puchhega
+
+## Nmap 
+multiple host enumeration :
+nmap -PE <host_url> will show if host is alive with ICMP sweep scan
+nmap -PE -sn <host_url> doesn't shows ports
+nmap -PE -sn <host_url> --reason --packet-trace --disable-arp-ping
+windows firewall blocks the nmap icmp sweep request all the time.
+
+### ICMP broadcast 
+nmap -PP -sn <host_url> will send icmp type=13 (timestamp) packet. 
+nmap -PM -sn <host_url> will send icmp type=17 will queries subnet mask (for diskless workstations during booting)
+
+-PS : for TCP SYN sweep
+-PA : for TCP ACK sweep
+-PU : for UDP sweep
