@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Academics/scrapbook/week 4 NPTEL.md",
+                "file": "Academics/NPTEL/WEEK 6/Public Key Cryptography.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "week 4 NPTEL"
+              "title": "Public Key Cryptography"
             }
           }
         ]
@@ -187,14 +187,32 @@
   },
   "active": "fed409690f85b234",
   "lastOpenFiles": [
-    "Academics/NPTEL/WEEK 4/Reconnaissance (Information Gathering ).md",
-    "Academics/NPTEL/WEEK 4/Vulnerability Scanning using NMAP.md",
-    "Academics/Cisco/Tools/Host.md",
-    "Academics/Cisco/Tools/NMAP.md",
+    "images/Pasted image 20251026025040.png",
+    "images/Pasted image 20251026030716.png",
+    "images/Pasted image 20251026030700.png",
+    "images/Pasted image 20251026030437.png",
+    "images/Pasted image 20251026025630.png",
+    "images/Pasted image 20251026025619.png",
+    "images/Pasted image 20251026025606.png",
+    "images/Pasted image 20251026025503.png",
+    "images/Pasted image 20251026025133.png",
+    "images/Pasted image 20251026025110.png",
+    "Pasted image 20251026030716.png",
+    "Academics/NPTEL/WEEK 6/Cryptography, Private-Key Cryptography.md",
+    "Academics/NPTEL/WEEK 6/Public Key Cryptography.md",
+    "Academics/NPTEL/WEEK 5/Vulnerability scanning using NMAP.md",
+    "General/TO-DO.md",
+    "Academics/NPTEL/WEEK 6",
+    "Academics/NPTEL/WEEK 1/1. Basic Concepts of Networking.md",
+    "Academics/Cisco/Main Objective.md",
     "Academics/Cisco/Tools/Spiderfoot.md",
     "Academics/Cisco/Tools/NSlookup.md",
-    "Academics/Cisco/Main Objective.md",
+    "Academics/Cisco/Tools/NMAP.md",
+    "Academics/Cisco/Tools/Host.md",
     "Academics/scrapbook/week 4 NPTEL.md",
+    "Academics/NPTEL/WEEK 5",
+    "Academics/NPTEL/WEEK 4/Reconnaissance (Information Gathering ).md",
+    "Academics/NPTEL/WEEK 4/Vulnerability Scanning using NMAP.md",
     "dig week 4 NPTEL.md",
     "dig.md",
     "Academics/NPTEL/WEEK 2/3. IP Subnetting.md",

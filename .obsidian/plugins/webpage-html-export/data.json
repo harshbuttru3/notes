@@ -10,12 +10,8 @@
     "postProcess": true,
     "displayProgress": true,
     "inlineHTML": false,
-    "exportPath": "C:\\Users\\harsh\\OneDrive\\Documents\\Obsidian\\Notes\\Exported",
-    "filesToExport": [
-      "Academics",
-      "images",
-      "Ink"
-    ],
+    "exportPath": "",
+    "filesToExport": [],
     "useFallbackRenderer": false,
     "addBodyClasses": true,
     "addMathjaxStyles": true,
