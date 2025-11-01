@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Academics/NPTEL/WEEK 2/3. IP Subnetting.md",
+                "file": "Academics/NPTEL/WEEK 1/2. TCP-IP Protocol Stack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. IP Subnetting"
+              "title": "2. TCP-IP Protocol Stack"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "General/TO-DO.md",
+                "file": "Academics/NPTEL/WEEK 1/1. Basic Concepts of Networking.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TO-DO"
+              "title": "1. Basic Concepts of Networking"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,13 +183,17 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "390a84efa1ccdbe7",
+  "active": "bb4c9b31f12abfd3",
   "lastOpenFiles": [
-    "Academics/oops/Important Questions.md",
+    "Academics/NPTEL/WEEK 2/3. IP Subnetting.md",
+    "Academics/NPTEL/WEEK 1/1. Basic Concepts of Networking.md",
+    "Academics/NPTEL/WEEK 3/Routing Protocols.md",
+    "Musicolet/Backups/2025-10-26 04-09-31.zip",
+    "Academics/NPTEL/WEEK 4/Reconnaissance (Information Gathering ).md",
     "General/TO-DO.md",
+    "Academics/oops/Important Questions.md",
     "Academics/NPTEL/WEEK 2/2. TCP and UDP.md",
     "Academics/NPTEL/WEEK 2/1. IP addressing and routing.md",
-    "Academics/NPTEL/WEEK 2/3. IP Subnetting.md",
     "Academics/NPTEL/WEEK 1/TCP-IP Protocol Stack.md",
     "Academics/NPTEL/WEEK 2/IP addressing and routing.md",
     "Academics/NPTEL/WEEK 1/Basic Concepts of Networking.md",
